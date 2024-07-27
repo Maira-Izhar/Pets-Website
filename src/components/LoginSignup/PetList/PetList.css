@@ -1,0 +1,95 @@
+.cards {
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    float: left;
+    text-justify: auto;
+  }
+  
+  .cards .red {
+    background-color: rgb(141, 127, 118);
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 190px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+
+button:hover {
+ box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
+  8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
+  17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
+  36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
+  99px 72px 143px rgba(0, 0, 0, 0.08);
+}
+
+.tooltip {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:center;
+ padding: 0.5em;
+ border: 0px solid transparent;
+ background-color: rgb(141, 127, 118);
+ border-radius: 1.25em;
+ transition: all 0.2s linear;
+ position: relative;
+ top:8px;
+}
+
+
+.edit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border: 0px solid transparent;
+    background-color: rgb(141, 127, 118);
+    border-radius: 1.25em;
+    transition: all 0.2s linear;
+    position: relative;
+    left: 35px;
+    bottom: 25px;
+    padding: 0.5em;
+  }
+  
+  .edit-svgIcon {
+    width: 17px;
+    transition-duration: 0.3s;
+  }
+  
+  .edit-svgIcon path {
+    fill: black;
+  }
+
+ 
+  
+  
+ 
+ 

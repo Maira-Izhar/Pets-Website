@@ -1,0 +1,138 @@
+.button {
+    --main-focus: #2d8cf0;
+    --font-color: #323232;
+    --bg-color-sub: #dedede;
+    --bg-color: #eee;
+    --main-color: #323232;
+    position: relative;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 25%;
+    margin-left: 46%;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(22px);
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: var(--bg-color-sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 20px;
+    fill: var(--main-color);
+  }
+  
+  .button:hover {
+    background: var(--bg-color);
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0px 0px var(--main-color);
+  }
+
+  .heading{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .button1 {
+    --main-focus: #2d8cf0;
+    --font-color: #323232;
+    --bg-color-sub: #dedede;
+    --bg-color: #eee;
+    --main-color: #323232;
+    position: relative;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-left: 46%;
+  }
+  
+  .button1, .button__icon1, .button__text1 {
+    transition: all 0.3s;
+  }
+  
+  .button1 .button__text1 {
+    transform: translateX(22px);
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .button1 .button__icon1 {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: var(--bg-color-sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button1 .svg {
+    width: 20px;
+    fill: var(--main-color);
+  }
+  
+  .button1:hover {
+    background: var(--bg-color);
+  }
+  
+  .button1:hover .button__text {
+    color: transparent;
+  }
+  
+  .button1:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button1:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0px 0px var(--main-color);
+  }
